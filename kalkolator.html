@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kalkylator</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="kalkolator.js" defer></script>
+  </head>
+  <body>
+     <nav>
+        <ul>
+          <!-- Navigation --> 
+            <li><a href="index.html">Att göra-lista</a></li>
+            <li><a href="kalkolator.html">Kalkylator</a></li>
+            <li><a href="changecolor.html">Färgkodad siffra</a></li>
+            <li><a href="studentfilter.html">Studentfilter</a></li>
+        </ul>
+    </nav>
+    <!-- Kalkylator -->
+    <section id="calculator-section">
+      <h2>2. Kalkylator</h2>
+      <div>
+        <input type="number" id="num1" placeholder="Tal 1" />
+        <input type="number" id="num2" placeholder="Tal 2" />
+      </div>
+      <div class="calculator-buttons">
+        <button id="add-btn">Addera (+)</button>
+        <button id="multiply-btn">Multiplicera (×)</button>
+        <button id="subtract-btn">Subtrahera (-)</button>
+      </div>
+      <div id="calculator-result"></div>
+    </section>
+  </body>
+</html>
